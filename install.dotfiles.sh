@@ -5,7 +5,7 @@
 install_path="$VENDORDIR/spaceship-zsh-theme"
 link_path="$BASEDIR/zsh-custom/themes/spaceship.zsh-theme"
 
-[[ -d $install_path ]] && {
+[[ ! -d $install_path ]] && {
 	git clone https://github.com/denysdovhan/spaceship-zsh-theme.git $install_path
 } || {
 	cd $install_path

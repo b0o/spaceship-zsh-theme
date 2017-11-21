@@ -4,4 +4,4 @@
 
 git clone https://github.com/denysdovhan/spaceship-zsh-theme.git $VENDORDIR/spaceship-zsh-theme
 
-ln -s $VENDORDIR/spaceship-zsh-theme/spaseship.zsh $BASEDIR/zsh-custom/theme/spaceship.zsh-theme
+ln -s $VENDORDIR/spaceship-zsh-theme/spaseship.zsh $BASEDIR/zsh-custom/themes/spaceship.zsh-theme

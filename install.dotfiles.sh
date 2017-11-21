@@ -12,6 +12,6 @@ link_path="$BASEDIR/zsh-custom/themes/spaceship.zsh-theme"
 	git pull origin master
 }
 
-[[ -e $link_path ]] && {
+[[ ! -e $link_path ]] && {
 	ln -s $VENDORDIR/spaceship-zsh-theme/spaseship.zsh $link_path
 }

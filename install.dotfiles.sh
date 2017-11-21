@@ -13,5 +13,5 @@ link_path="$BASEDIR/zsh-custom/themes/spaceship.zsh-theme"
 }
 
 [[ ! -e $link_path ]] && {
-	ln -s $VENDORDIR/spaceship-zsh-theme/spaseship.zsh $link_path
+	ln -s $install_path/spaceship.zsh $link_path
 }
